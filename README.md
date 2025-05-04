@@ -3,8 +3,8 @@ Omada Take Home Test
 
 **Video Links**
 
-https://youtu.be/DM-22NDq42I // App demo
-https://youtu.be/XmnqPBy_590 // Coding session
+- https://youtu.be/DM-22NDq42I // App demo
+- [https://youtu.be/XmnqPBy_590 ](https://youtu.be/fBaM1BTs36k) // Coding session
 
 **Overview**
 
