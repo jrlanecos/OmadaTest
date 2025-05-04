@@ -55,7 +55,7 @@ The Movie struct conforms to Identifiable for easy use in List. I included compu
 **Potential Improvements (Given More Time)**
 
 1. Add pagination support/infinite scrolling for large result sets (fetch the API more than once and increment page +=1)
-2. Make search bar clear current search results
+2. Make search bar clear current search results without having to type an empty string (I just forgot before I ended my video)
 3. Add unit tests for the ViewModel
 4. Lengthen the UI Test to actually tap a movie from the search result, go to the detail view, inspect the labels on both screens, etc.
 5. Use dependency injection for network/data fetching to mock it in a unit test.
