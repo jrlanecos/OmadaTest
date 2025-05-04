@@ -3,7 +3,8 @@ Omada Take Home Test
 
 **Video Links**
 
-I had to store them offsite since they are so large (~7GB for coding session for instance)
+https://youtu.be/DM-22NDq42I // App demo
+https://youtu.be/XmnqPBy_590 // Coding session
 
 **Overview**
 
@@ -48,15 +49,14 @@ For the purposes of this coding interview, I focused on building a solid, testab
 
 **Movie Model Design**
 
-The Movie struct conforms to Identifiable for easy use in List. I included computed properties like posterUrlString, yearString, and ratingString to keep the UI clean and avoid repetitive logic in views.
+The Movie struct conforms to Identifiable for easy use in List. I included computed properties like posterUrlString, yearString, and ratingString to keep the UI clean and avoid repetitive logic in views.**This keeps parsing logic tightly coupled to the model, reducing view complexity and promoting single responsibility.**
 
-**This keeps parsing logic tightly coupled to the model, reducing view complexity and promoting single responsibility.**
 
 **Potential Improvements (Given More Time)**
 
 1. Add pagination support/infinite scrolling for large result sets (fetch the API more than once and increment page +=1)
-2. Add unit tests for the ViewModel
-3. Lengthen the UI Test to actually tap a movie from the search result, go to the detail view, inspect the labels on both screens, etc.
-4. Use dependency injection for network/data fetching to mock it in a unit test.
-
+2. Make search bar clear current search results
+3. Add unit tests for the ViewModel
+4. Lengthen the UI Test to actually tap a movie from the search result, go to the detail view, inspect the labels on both screens, etc.
+5. Use dependency injection for network/data fetching to mock it in a unit test.
  
