@@ -54,9 +54,9 @@ The Movie struct conforms to Identifiable for easy use in List. I included compu
 
 **Potential Improvements (Given More Time)**
 
-Add pagination support/infinite scrolling for large result sets (fetch the API more than once and increment page +=1)
-Add unit tests for the ViewModel
-Lengthen the UI Test to actually tap a movie from the search result, go to the detail view, inspect the labels on both screens, etc.
-Use dependency injection for network/data fetching to mock it in a unit test.
+1. Add pagination support/infinite scrolling for large result sets (fetch the API more than once and increment page +=1)
+2. Add unit tests for the ViewModel
+3. Lengthen the UI Test to actually tap a movie from the search result, go to the detail view, inspect the labels on both screens, etc.
+4. Use dependency injection for network/data fetching to mock it in a unit test.
 
  
